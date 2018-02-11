@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rssreader_development
+  pool: 5
+  username: postgres
+  password: Password
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rssreader_production
+  pool: 5
+  username: postgres
+  password: Password
+  host: localhost
