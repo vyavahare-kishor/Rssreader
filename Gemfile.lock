@@ -59,8 +59,6 @@ GEM
     connection_pool (2.2.1)
     crass (1.0.3)
     erubis (2.7.0)
-    et-orbi (1.0.9)
-      tzinfo
     execjs (2.7.0)
     ffi (1.9.21)
     globalid (0.4.1)
@@ -133,8 +131,6 @@ GEM
       ffi (>= 0.5.0, < 2)
     redis (4.0.1)
     ref (2.0.0)
-    rufus-scheduler (3.4.2)
-      et-orbi (~> 1.0)
     sass (3.5.5)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -151,11 +147,6 @@ GEM
       connection_pool (~> 2.2, >= 2.2.0)
       rack-protection (>= 1.5.0)
       redis (>= 3.3.5, < 5)
-    sidekiq-scheduler (2.2.1)
-      redis (>= 3, < 5)
-      rufus-scheduler (~> 3.2)
-      sidekiq (>= 3)
-      tilt (>= 1.4.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -207,7 +198,6 @@ DEPENDENCIES
   rails (~> 5.0.5)
   sass-rails (~> 5.0)
   sidekiq
-  sidekiq-scheduler
   spring
   spring-watcher-listen (~> 2.0.0)
   therubyracer
